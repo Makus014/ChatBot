@@ -1,0 +1,64 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "greetings", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Need something?", "Hi there, how can I help?", "greetings", "Hi!", "Present!"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "terminate"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!", "k", "aight", "bye", "okay"],
+         "context_set": ""
+        },
+        {"tag": "current_time",
+        "patterns": ["check time", "what time is it?", "tell me the time", "time", "date"],
+        "responses": ["Sure! {time_variable}", "{time_variable}","Okay, {time_variable}", "Here is it! {time_variable}", "Roger! {time_variable}"],
+        "context_set": ""
+        },
+        {"tag": "Summarization",
+        "patterns": ["Can you summarize this for me?", "Summarize this", "summarize"],
+        "responses": ["Sure! what do you wanna summarize?", "Okay! What do you want to summarize?", "Okay, just input it here: "],
+        "context_set": ""
+        },
+        {"tag": "hoverUP",
+        "patterns":["hover up", "go up", "up"],
+        "responses": ["hovering up", "going up", "up"],
+        "context_set": ""
+        },
+        {"tag": "hoverDown",
+        "patterns":["hover down", "go down", "down"],
+        "responses": ["hovering down", "going down", "down"],
+        "context_set": ""
+        },
+        {"tag": "hoverLeft",
+        "patterns":["hover Left", "go left", "left"],
+        "responses": ["hovering left", "going left", "left"],
+        "context_set": ""
+        },
+        {"tag": "hoverRight",
+        "patterns":["hover right", "go right", "right"],
+        "responses": ["hovering right", "going right", "right"],
+        "context_set": ""
+        },  
+        {"tag": "stop",
+        "patterns": ["stop"],
+        "responses": ["Stopping"],
+        "context_set": ""
+        },
+        {"tag":"mouseclick",
+        "patterns":["click", "press"],
+        "responses": ["Clicking", "pressing"],
+        "context_set": ""
+        },
+        {"tag": "personalInfor",
+        "patterns": ["what are you?", "who are you?", "define yourself"],
+        "responses": ["I am a chat bot model!", "good question! I am a chat bot model!", "I am just a chat bot model!"],
+        "context_set": ""
+        },
+        {"tag": "personalInfoName",
+        "patterns": ["what is your name?", "tell me your name?", "state your name"],
+        "responses": ["My name is...chatbot!", "My name is chatbot", "Chatbot"],
+        "context_set": ""
+        }
+   ]
+   
+}
